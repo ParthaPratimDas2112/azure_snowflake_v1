@@ -2,9 +2,9 @@
 	"name": "azuresnowflakev1",
 	"properties": {
 		"globalConfigurations": {
-			"factoryStagingLSReferenceName": "AzureBlobStorage1",
-			"factoryStagingLSType": "LinkedServiceReference",
-			"factoryStagingFolderPath": "azuresnowflakecontainer"
+			"factoryStagingLSReferenceName": "",
+			"factoryStagingLSType": "",
+			"factoryStagingFolderPath": ""
 		}
 	},
 	"location": "centralindia"
