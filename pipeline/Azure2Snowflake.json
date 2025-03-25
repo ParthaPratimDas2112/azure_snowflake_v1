@@ -13,7 +13,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "SalesLT.ProductCategory"
+					},
+					{
+						"name": "Destination",
+						"value": "AZURESNOWFLAKE.PRODCATSINK"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
