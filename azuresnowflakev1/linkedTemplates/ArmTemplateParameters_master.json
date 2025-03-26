@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuresnowflakev1"
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"Snowflake1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "azuresnowflakeadventureworkds.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "azure_snowflake_adventureworks"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "azuresnowflakesqlserver.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "azure_snowflake_sqldatabase"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "azuresnowflakesqlserver"
+		},
+		"Snowflake1_properties_typeProperties_database": {
+			"value": "AZURESNOWFLAKE"
+		},
+		"Snowflake1_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"AzureBlobStorage1_sasUri": {
+			"value": ""
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
